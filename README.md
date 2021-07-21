@@ -16,5 +16,5 @@ A small summary:
 9. Chroot in with arch-chroot /mnt
 10. Download the git repository with git clone https://github.com/amirrezaKN/arch-install.git
 11. cd arch-install
-12. chmod +x install-uefi.sh
-13. run with ./install-uefi.sh
+12. chmod +x install-uefi-virtualbox.sh
+13. run with ./install-uefi-virtualbox.sh
