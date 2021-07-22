@@ -20,7 +20,7 @@ pacman -S --noconfirm rsync reflector
 
 reflector --latest 10 --sort rate --save /etc/pacman.d/mirrorlist
 
-pacman -S --noconfirm sudo vim man-db rofi alacritty man-pages texinfo go xorg xorg-xinit i3 feh picom firefox grub efibootmgr networkmanager dosfstools base-devel linux-headers bash-completion os-prober ntfs-3g virtualbox virtualbox-guest-utils virtualbox-host-modules-arch
+pacman -S --noconfirm sudo vim man-db rofi alacritty pcmanfm-gtk3 man-pages texinfo go xorg xorg-xinit i3 feh picom firefox grub efibootmgr networkmanager dosfstools base-devel linux-headers bash-completion os-prober ntfs-3g virtualbox virtualbox-guest-utils virtualbox-host-modules-arch
 
 mkdir -p /home/amir
 
