@@ -18,3 +18,8 @@ A small summary:
 11. cd arch-install
 12. chmod +x install-uefi-virtualbox.sh
 13. run with ./install-uefi-virtualbox.sh
+14. cd int ~/Downloads/yay and run makepkg -si
+15. install polybar and zsh using yay
+16. sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+17. git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+18. ZSH_THEME="powerlevel10k/powerlevel10k"
