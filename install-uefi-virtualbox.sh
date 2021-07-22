@@ -35,7 +35,7 @@ echo 'VBoxClient --vmsvga' >> /home/amir/.xinitrc
 echo 'VBoxClient-all' >> /home/amir/.xinitrc
 echo 'exec i3' >> /home/amir/.xinitrc
 
-cp -r /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.bash_profile /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.vimrc /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.vim /home/amir
+cp -r /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.bash_profile /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.zprofile /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.vimrc /home/amir/Documents/github.com/AmirrezaKN/dotfiles/.vim /home/amir
 mkdir -p /home/amir/.config
 cp -r /home/amir/Documents/github.com/AmirrezaKN/dotfiles/alacritty /home/amir/Documents/github.com/AmirrezaKN/dotfiles/i3 /home/amir/Documents/github.com/AmirrezaKN/dotfiles/polybar /home/amir/Documents/github.com/AmirrezaKN/dotfiles/gtk-3.0 /home/amir/.config
 cp -r /home/amir/Documents/github.com/AmirrezaKN/fonts /usr/share/
