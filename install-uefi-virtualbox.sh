@@ -43,7 +43,7 @@ chmod +x /home/amir/.config/polybar/launch.sh
 mkdir -p /home/amir/Pictures
 cp -r /home/amir/Documents/github.com/AmirrezaKN/dotfiles/wallpaper /home/amir/Pictures
 
-grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
 grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable reflector.timer
