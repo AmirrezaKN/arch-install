@@ -49,6 +49,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 systemctl enable reflector.timer
 systemctl enable NetworkManager
+systemctl enable vboxservice
 
 useradd -m amir
 echo amir:1 | chpasswd
